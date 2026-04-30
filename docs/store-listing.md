@@ -69,5 +69,8 @@ Prepare at least one screenshot before submission:
 
 Prepared asset:
 
+- Store icon: `public/icons/icon128.png`
+- Store icon source: `docs/assets/chrome-web-store-icon-e-source.png`
 - `docs/assets/chrome-web-store-screenshot-1280x800.png`
 - Source: `docs/assets/chrome-web-store-screenshot-1280x800.html`
+- Small promotional image: `docs/assets/chrome-web-store-small-promo-440x280.png`

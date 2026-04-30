@@ -22,7 +22,7 @@
     },
     "icons:generate": {
       "command": "node scripts/generate-icons.mjs",
-      "purpose": "Regenerate Chrome Web Store PNG icons from the local icon renderer."
+      "purpose": "Regenerate Chrome Web Store PNG icons from the selected source artwork."
     }
   }
 }

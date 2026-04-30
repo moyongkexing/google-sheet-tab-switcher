@@ -32,7 +32,9 @@ Current expected privacy claim:
 Prepare before submission:
 
 - Store summary and full description in English. Use `docs/store-listing.md` as the draft source.
+- Store icon. Use `public/icons/icon128.png`.
 - At least one screenshot of the extension in use. Use `docs/assets/chrome-web-store-screenshot-1280x800.png` as the initial asset.
+- Small promotional image. Use `docs/assets/chrome-web-store-small-promo-440x280.png`.
 - Privacy policy URL. Use `https://moyongkexing.github.io/google-sheet-tab-switcher/privacy/` after GitHub Pages is enabled.
 - Support URL. Use `https://moyongkexing.github.io/google-sheet-tab-switcher/support/` after GitHub Pages is enabled.
 - Clear review instructions: open a Google Sheets spreadsheet, then press `Cmd+Shift+F` on macOS or `Ctrl+Shift+F` on Windows/Linux.
@@ -68,4 +70,4 @@ Regenerate extension icons after changing icon artwork:
 pnpm run icons:generate
 ```
 
-The generated files are written to `public/icons/` and copied into WXT's `.output/` directory during build.
+The script uses `docs/assets/chrome-web-store-icon-e-source.png` as the source image. The generated files are written to `public/icons/` and copied into WXT's `.output/` directory during build.
