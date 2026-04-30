@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "dev": {
+      "command": "wxt",
+      "purpose": "Start the local Chrome extension development server with WXT."
+    },
+    "build": {
+      "command": "pnpm run check && wxt build",
+      "purpose": "Run all static checks and produce the WXT Chrome extension bundle in .output."
+    },
+    "zip": {
+      "command": "pnpm run check && wxt zip",
+      "purpose": "Run all static checks and create a Chrome Web Store upload ZIP with WXT."
+    },
+    "postinstall": {
+      "command": "wxt prepare",
+      "purpose": "Generate WXT TypeScript support files after dependency installation."
+    },
+    "check": {
+      "command": "node scripts/lint-package-scripts.mjs && vp check",
+      "purpose": "Run the custom package-scripts guard plus Vite+ formatting, linting, and type checks."
+    },
+    "icons:generate": {
+      "command": "node scripts/generate-icons.mjs",
+      "purpose": "Regenerate Chrome Web Store PNG icons from the local icon renderer."
+    }
+  }
+}

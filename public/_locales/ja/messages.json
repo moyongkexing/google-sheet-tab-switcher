@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "Google Sheet Tab Switcher",
+    "description": "Chrome Web Storeとツールバーに表示する拡張機能名。"
+  },
+  "extensionShortName": {
+    "message": "Sheet Tabs",
+    "description": "Chromeの狭い表示面で使う短い拡張機能名。"
+  },
+  "extensionDescription": {
+    "message": "キーボードショートカットでGoogleスプレッドシートのタブをすばやく検索して切り替えます。",
+    "description": "Chrome Web Store用の短い説明文。"
+  }
+}

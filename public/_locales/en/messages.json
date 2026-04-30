@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "Google Sheet Tab Switcher",
+    "description": "Chrome Web Store and toolbar extension name."
+  },
+  "extensionShortName": {
+    "message": "Sheet Tabs",
+    "description": "Short extension name for compact Chrome surfaces."
+  },
+  "extensionDescription": {
+    "message": "Quickly search and switch tabs in Google Sheets with a keyboard shortcut.",
+    "description": "Chrome Web Store extension summary."
+  }
+}

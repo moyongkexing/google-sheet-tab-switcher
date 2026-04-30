@@ -1,0 +1,6 @@
+title: Google Sheet Tab Switcher
+description: Quickly search and switch tabs inside Google Sheets.
+baseurl: /google-sheet-tab-switcher
+url: https://moyongkexing.github.io
+exclude:
+  - README.md
